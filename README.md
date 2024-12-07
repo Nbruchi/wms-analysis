@@ -1,4 +1,4 @@
-# 🌿 **EcoServe Data Processing and Feature Engineering**
+# 🌿 **Wms Data Processing and Feature Engineering**
 
 This project focuses on automating the process of collecting, cleaning, and processing data from waste management APIs to generate meaningful insights and features for analysis. It combines data from recycling events and schedule records, cleans the data, and performs feature engineering to extract useful insights.
 

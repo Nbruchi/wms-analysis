@@ -11,11 +11,6 @@ try:
     schedules_api.raise_for_status()
     schedules_api_data = schedules_api.json()
 
-    # No slicing; handling all data now
-    # Uncomment for debugging:
-    # print(recycles_api_data[:5])  
-    # print(schedules_api_data[:5])
-
     # Convert API data to DataFrames
     pdf = pd.DataFrame(recycles_api_data)
     tdf = pd.DataFrame(schedules_api_data)
